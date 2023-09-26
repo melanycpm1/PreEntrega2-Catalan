@@ -1,0 +1,325 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*inicio del navbar*/
+.header{
+    background-color: #28A162;
+    padding: 2% 5%;
+}
+.lista{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.a{
+    text-decoration: none;
+}
+.boton-login, .boton-carrito{
+    height: 2.5rem;
+    width: 6.375rem;
+    border-radius: .625rem;
+}
+.boton-login{
+    border: 2px solid #151616;
+    background-color: #28A162;
+    color: #f1ffff;
+}
+.boton-carrito{
+    background-color: #151616;
+    color: #f1ffff;
+}
+/*fin del navbar*/
+/*inico de la portada*/
+
+.contenedor-new{
+    display: inline-block;
+    background-color: #D9D9D9;
+    padding:  0.7% 1%;
+    margin-top: 4%;
+    margin-left: 12.5% ;
+}
+.h1{
+    font-size: 4.25rem;
+}
+.contenedor-texto{
+    margin-left: 12.5%;
+    margin-right: 36%;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-template-areas: 
+    "white white yellow yellow yellow"
+    "white white yellow yellow yellow"
+}
+.contenedor-yellow{
+    background-color: #FEB934;
+    grid-area: yellow;
+}
+.contenedor-white{
+    grid-area: white;
+}
+.img-princi{
+    width: 80%;
+    /*position: relative*/;
+    /*fijar como hacer responsive*/
+}
+.img-princi-dos{
+    width: 30%;
+    position: absolute;
+    /*fijar como hacer responsive*/
+    right: 0%;
+    top: 20%;
+}
+/*fin*/
+/*inicio de la seccion beige*/
+.contenedor-beige{
+    background-color: #FFE3B4;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,1fr);
+    grid-template-areas:
+    "textouno textodos";
+    
+
+}
+.contenedor-delivery{
+    grid-area:textouno ;
+    margin-right: 65%;
+    margin-left: 9.5%;
+    margin-top: 5%;
+}
+.contendor-wait{
+    grid-area: textodos;
+    margin-left:65% ;
+    margin-right:9.5%;
+    margin-top: 5%;
+
+}
+.parrafo-beige{
+    margin-top: 4.5%;
+}
+.boton-verde{
+    background-color: #28A162;
+    border: none;
+    color: #f1ffff;
+    margin-top: 6%;
+    margin-bottom: 20%;
+    padding: 2.5% 20%;
+    border-radius: 10px;
+}
+/*fin */
+/*inicio de la secciones de seis colores*/
+.contenedor-seis{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-template-areas: 
+    "sandwiches sandwiches burger burger ensalada ensalada"
+    "kids kids kids dulce dulce more ";
+}
+.sandwiches{
+    background-color: #06A54F;
+    grid-area:sandwiches;
+}
+.burger{
+    background-color: #FF8D24;
+    grid-area:burger;
+}
+.ensalada{
+    background-color: #9FCF64;
+    grid-area:ensalada ;
+}
+.kids{
+    background-color: #255DCC;
+    grid-area:kids ;
+}
+.dulce{
+    background-color: #CF2667;
+    grid-area:dulce ;
+}
+.more{
+    background-color: #f1ffff;
+    grid-area:more ;
+}
+.boton-ver-mas{
+    margin-top: 15%;
+    padding: 2% 3%;
+    border-radius: 15px;
+    background-color: #151616;
+    color: #f1ffff;
+}
+.texto{
+    color: #f1ffff;
+    margin-left: 14%;
+    margin-right: 45%;
+    margin-top: 5%;
+
+}
+/*.contenedor-imagen{
+    width: 75vw;
+    max-width:  700px; 
+    min-width: 20px;
+    margin: auto;
+}
+.img-comida{
+    width: 100% ;
+}*/
+.nombre-secciones{
+    font-size: 2.50rem; 
+    margin-bottom: 7%;
+}
+.img-comida-sandwiche{
+    width: 40%;
+    margin-top: -350px;
+    margin-left: 60%;
+}
+.img-comida-burger{
+    width: 75%;
+    margin-top: -395px;
+    margin-left: 25%;
+}
+.img-comida-ensalada{
+    width: 65%;
+    margin-top: -350px;
+    margin-left: 35%;
+}
+.img-comida-pancho{
+    width: 45%;
+    margin-top: -350px;
+    margin-left: 55.1%;
+}
+.img-comida-helado{
+    width: 45%;
+    margin-top: -320px ;
+    margin-left: 55.1%;
+}
+.nombre-secciones-more{
+    font-size: 2.50rem; 
+    margin: 30% 25%;
+}
+/*footer*/
+.footer{
+background-color: #28A162;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+padding: 6%;
+}
+.icono,.textoo{
+display: inline-block;
+}
+/*fin del footer*/
+
+
+/* take away*/
+
+
+.fondo-naranja{
+    background-color: #FFE3B4;
+}
+.take-contenido{
+    /*display: flex;
+    justify-content: center;*/
+    text-align: center;
+    padding: 10%;
+}
+.take-away{
+    font-size: 5.25rem;
+    color: #f1ffff;
+}
+/*hamburguesas*/
+.green{
+    background-color: #9FCF64;
+}
+.titulo-productos{
+    text-align: center;
+    font-size: 1.80rem;
+    color: #f1ffff;
+    padding: 4%;
+}
+.spyce-img{
+    border-radius: 15px;
+    width: 74%;
+    box-shadow: 2px 2px 5px rgb(52, 49, 49)
+}
+.flex-articulo{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-bottom: 14%;
+    margin-right: 3%;
+}
+.grid-articulo-hamburguesa{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    margin-top: 6%;
+    margin-bottom: 6%;
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: center;
+}
+.nombre{
+    margin-top: 7%;
+}
+.ingredientes{
+    margin-top: 14%;
+}
+.boton-agregar{
+    width: 73%;
+    text-align: center;
+    padding: 6% 4%;
+    margin-top: 13%;
+    background-color: #28A162;
+    color: #f1ffff;
+    border: none;
+
+}
+/*ensaladas*/
+.grid-ensalada{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,1fr);
+    margin-top: 6%;
+    margin-bottom: 6%;
+    margin-left: 6.2%;
+    margin-right: 3%;
+}
+.precio{
+    margin-top: 7%;
+}
+/*fin de ensalada*/
+/*sandwiches*/
+
+.grid-sandwiches{
+    display: grid;
+    grid-template-columns: repeat(3,1fr) ;
+    grid-template-rows: repeat(3,1fr);
+    margin-top: 6%;
+    margin-bottom: 6%;
+    margin-left: 6.2%;
+    margin-right: 3%;
+}
+/**/
+.grid-postres{
+    display: grid;
+    grid-template-columns: repeat(3,1fr) ;
+    grid-template-rows: repeat(3,1fr);
+    margin-top: 6%;
+    margin-bottom: 6%;
+    margin-left: 6.2%;
+    margin-right: 3%;
+}
+/**/
+.grid-para-niños{
+    display: grid;
+    grid-template-columns: repeat(3,1fr) ;
+    grid-template-rows: repeat(2,1fr);
+    margin-top: 6%;
+    margin-bottom: 2%;
+    margin-left: 6.2%;
+    margin-right: 3%;
+}
