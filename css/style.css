@@ -323,3 +323,16 @@ display: inline-block;
     margin-left: 6.2%;
     margin-right: 3%;
 }
+
+/*franquicias*/
+
+.franquicias-contenido{
+    /*display: flex;
+    justify-content: center;*/
+    /*text-align: left;
+    ;*/
+    padding: 6.7%
+}
+.franquicia{
+    color: #FEB934;
+}
