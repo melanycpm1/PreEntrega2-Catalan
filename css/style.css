@@ -373,3 +373,20 @@ display: inline-block;
 .contenedor-del-parrafo{
     margin-top: 2%;
 }
+/**/
+.numero-uno{
+    font-size: 3.40rem;
+    color: #FF8D24;
+}
+.negocio{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.parrafo-negocio{
+    font-size: 1.05rem;
+}
+.contenedor-numero{
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
