@@ -333,6 +333,43 @@ display: inline-block;
     ;*/
     padding: 6.7%
 }
-.franquicia{
+.texto-color-yellow{
     color: #FEB934;
+}
+/*.circulo-green{
+    display: inline;
+    background: #9FCF64;
+
+}*/
+.grid-ventajas{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,1fr);
+    grid-template-areas: 
+    "texto texto icono";
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 6.8%;
+}
+.contenido{
+    grid-area:texto;
+}
+.icono-completo{
+    grid-area: icono;
+}
+.icono-green{
+    padding: 20%;
+    background-color: #9FCF64;
+    display: inline-block;
+    border-radius: 140px;
+    margin-left: 20%;
+}
+.texto-ventajas{
+    font-size: 1.80rem;
+}
+.parrafo-ventajas{
+    font-size: 1.25rem;
+}
+.contenedor-del-parrafo{
+    margin-top: 2%;
 }
