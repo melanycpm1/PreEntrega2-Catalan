@@ -451,3 +451,49 @@ display: inline-block;
     text-align: center;
     margin: 4% 0%;
 }
+
+
+/*trabaja*/
+
+
+.titulo-trabaja{
+    padding: 8.8% 0%;
+    font-size: 4.25rem;
+    margin-left: 7%;
+}
+.fondo-green{
+    background-color: #9FCF64;
+}
+.spyce-burger{
+    color: #FEB934;
+}
+.grid-formulario{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    text-align: center;
+    margin-top: 10%;
+}
+.button-formulario-trabaja{
+    width: 80%;
+    /*margin-right: 50%;*/
+    background-color: #9FCF64;
+    border: none;
+    border-radius: 0%;
+}
+.input-mail,.input-nombre, .input-whataspp{
+    width: 80%;
+    height: 60%;
+    border-radius: 20px;
+}
+.button-enviar-trabaja{
+    border-radius: 0%;
+    background-color: #FEB934;
+    border:none;
+    text-align: center;
+    width:7%
+}
+.parrafo-trabaja{
+    text-align: center;
+    margin-top: 10%;
+}
