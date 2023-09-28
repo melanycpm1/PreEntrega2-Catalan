@@ -491,9 +491,56 @@ display: inline-block;
     background-color: #FEB934;
     border:none;
     text-align: center;
-    width:7%
+    width:7%;
+    margin-top: 4%;
 }
 .parrafo-trabaja{
     text-align: center;
     margin-top: 10%;
+}
+
+
+.mapas{
+    background-color: #FAF7F2;
+    margin-top: 3%;
+    padding-bottom: 3%;
+    margin-top: 12%;
+}
+.title{
+    text-align: center;
+    padding: 3%;
+
+}
+.map{
+    width: 200px;
+    height: 200px;
+}
+.lugar{
+    text-align: center;
+    color: #FEB934;
+
+}
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+.ver_mapa{
+    padding: 3%;
+    margin-left: 20%;
+    background-color: #FEB934;
+    border: none;
+}
+footer{
+    background-color: #28A162;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 6%;
+}
+.icono,.textoo{
+    display: inline-block;
+}
+.ver-white{
+    text-decoration: none;
+    color: #f1ffff;
 }
