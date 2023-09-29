@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,200;1,400&family=Oswald:wght@500;700&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -7,6 +8,7 @@
 .header{
     background-color: #28A162;
     padding: 2% 5%;
+    font-family: 'Oswald', sans-serif;
 }
 .lista{
     list-style: none;
@@ -15,11 +17,15 @@
 }
 .a{
     text-decoration: none;
+    color: #f1ffff;
 }
 .boton-login, .boton-carrito{
     height: 2.5rem;
     width: 6.375rem;
     border-radius: .625rem;
+    font-size: 1rem;
+    font-family: 'Oswald', sans-serif;
+    bottom: 5%;
 }
 .boton-login{
     border: 2px solid #151616;
@@ -39,13 +45,24 @@
     padding:  0.7% 1%;
     margin-top: 4%;
     margin-left: 12.5% ;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
 }
 .h1{
     font-size: 4.25rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    letter-spacing: 5px;
 }
 .contenedor-texto{
     margin-left: 12.5%;
     margin-right: 36%;
+    
+}
+.parrafo-h1{
+    font-family: 'Noto Sans', sans-serif;
+    font-style:italic;
+    font-size: 0.10rem;
 }
 .grid{
     display: grid;
@@ -53,7 +70,7 @@
     grid-template-rows: repeat(2,1fr);
     grid-template-areas: 
     "white white yellow yellow yellow"
-    "white white yellow yellow yellow"
+    "white white yellow yellow yellow";
 }
 .contenedor-yellow{
     background-color: #FEB934;
@@ -61,9 +78,18 @@
 }
 .contenedor-white{
     grid-area: white;
+    
+    margin-bottom: 15%;
+}
+.really-fast, .dont-wait{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.875rem;
 }
 .img-princi{
-    width: 80%;
+    width: 50%;
+    position: absolute;
+    right: 13%;
+    top: 15%;
     /*position: relative*/;
     /*fijar como hacer responsive*/
 }
@@ -83,6 +109,7 @@
     grid-template-rows: repeat(1,1fr);
     grid-template-areas:
     "textouno textodos";
+    /*font-family: 'Noto Sans', sans-serif;*/
     
 
 }
@@ -101,15 +128,26 @@
 }
 .parrafo-beige{
     margin-top: 4.5%;
+    font-family: 'Noto Sans', sans-serif;
+    font-style: italic;
+    font-size: 1rem;
 }
 .boton-verde{
     background-color: #28A162;
     border: none;
-    color: #f1ffff;
     margin-top: 6%;
     margin-bottom: 20%;
     padding: 2.5% 20%;
     border-radius: 10px;
+
+}
+
+.boton-estilo{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 0.800rem;
+    font-style: italic;
+    color: #f1ffff;
+    text-decoration: none;
 }
 /*fin */
 /*inicio de la secciones de seis colores*/
@@ -169,8 +207,15 @@
     width: 100% ;
 }*/
 .nombre-secciones{
-    font-size: 2.50rem; 
     margin-bottom: 7%;
+    font-size: 2.50rem; 
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 3px;
+}
+.parrafo-seis{
+    font-family: 'Noto Sans', sans-serif;
+    font-style: italic;
+    font-size: 1rem;
 }
 .img-comida-sandwiche{
     width: 40%;
@@ -200,6 +245,7 @@
 .nombre-secciones-more{
     font-size: 2.50rem; 
     margin: 30% 25%;
+    font-family: 'Oswald', sans-serif;
 }
 /*footer*/
 .footer{
@@ -211,6 +257,11 @@ padding: 6%;
 }
 .icono,.textoo{
 display: inline-block;
+}
+.texto-white{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 0.90rem;
+    
 }
 /*fin del footer*/
 
@@ -544,3 +595,40 @@ footer{
     text-decoration: none;
     color: #f1ffff;
 }
+
+/*querys*/
+
+
+@media (max-width:1440px){
+    .h1{
+        font-size: 4rem;
+    } 
+    .parrafo-h1{
+        font-size: 0.05rem;
+    }
+    .parrafo-beige{
+        font-size: 0.80rem;
+    }
+    .really-fast, .dont-wait{
+        font-size: 1.475rem;
+    }
+    .nombre-secciones{
+        font-size: 2.20rem; 
+    }
+    .parrafo-seis{
+        font-size: 0.80rem;
+    }
+    .img-comida-burger{
+        width: 70%;
+        margin-top: -395px;
+        margin-left: 31%;
+    }
+    .img-comida-ensalada{
+        width: 60%;
+        /*margin-top: -320px;*/
+        margin-left: 40%;
+    }
+}
+/*@media (max-width:785px){
+    .
+}*/
