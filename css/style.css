@@ -606,7 +606,32 @@ footer{
     text-decoration: none;
     color: #f1ffff;
 }
-
+.button_login{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    border-radius: 20px;
+    border: none;
+}
+.button_login_dos{
+    padding-left: 20%;
+    padding-right: 28%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    border-radius: 20px;
+    border: none;
+}
+.main{
+    background-color: #9FCF64;
+    text-align: center;
+    padding: 10%;
+}
+.titulos_login{
+    margin-bottom: 5%;
+    color: #FF8D24;
+    font-size: 4.875rem
+}
 /*querys*/
 
 
