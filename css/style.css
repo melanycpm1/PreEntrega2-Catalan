@@ -270,8 +270,12 @@ display: inline-block;
 
 
 /* take away*/
-
-
+.precio-take-away{
+    font-size: .9375rem;
+}
+.ingredientes-font-size{
+    font-size: .8125rem ;
+}
 .fondo-naranja{
     background-color: #FFE3B4;
 }
@@ -294,6 +298,9 @@ display: inline-block;
     font-size: 1.80rem;
     color: #f1ffff;
     padding: 4%;
+}
+.nombre-combo{
+    font-size: 1.1875rem;
 }
 .spyce-img{
     border-radius: 15px;
@@ -330,6 +337,7 @@ display: inline-block;
     background-color: #28A162;
     color: #f1ffff;
     border: none;
+    font-size: .625rem;
 
 }
 /*ensaladas*/
@@ -1188,6 +1196,182 @@ footer{
         top: 32%;
     }
     .texto-white {
+        font-size: .3125rem;
+    }
+}
+
+/*take away*/
+@media (max-width:1440px){
+    .take-away {
+        font-size: 5rem;
+    }
+    .titulo-productos {
+        font-size: 1.5625rem;
+    }
+    .nombre-combo{
+        font-size: .9375rem;
+    }
+    .ingredientes-font-size{
+        font-size: .6875rem ;
+    }
+    .precio-take-away{
+        font-size: .8125rem;
+    }
+
+}
+@media (max-width:1340px){
+    .take-away {
+        font-size: 4.6875rem;
+    }
+    .titulo-productos {
+        font-size: 1.375rem;
+    }
+    .nombre-combo{
+        font-size: .8438rem;
+    }
+    /*.ingredientes-font-size{
+        font-size: .6875rem ;
+    }
+    .precio-take-away{
+        font-size: .8125rem;
+    }*/
+
+}
+@media (max-width:1240px){
+    .take-away {
+        font-size: 4.375rem;
+    }
+    .titulo-productos {
+        font-size: 1.25rem;
+    }
+    .nombre-combo{
+        font-size: .8125rem;
+    }
+    /*.ingredientes-font-size{
+        font-size: .6875rem ;
+    }
+    .precio-take-away{
+        font-size: .8125rem;
+    }*/
+
+}
+@media (max-width:1139px){
+    .ingredientes-font-size{
+        font-size: .5938rem ;
+    }
+    .titulo-productos {
+        font-size: .9375rem;
+    }
+}
+
+@media (max-width:940px){
+    .take-away {
+        font-size: 4.0625rem;
+    }
+    .titulo-productos {
+        font-size: .8125rem;
+    }
+    .nombre-combo{
+        font-size: .6875rem;
+    }
+    .ingredientes-font-size{
+        font-size: .5625rem ;
+    }
+    
+    /*
+        .ingredientes-font-size{
+        font-size: .5938rem ;
+        }
+    .precio-take-away{
+        font-size: .8125rem;
+    }*/
+
+}
+
+@media (max-width:842px){
+    /*.take-away {
+        font-size: 4.0625rem;
+    }
+    .titulo-productos {
+        font-size: .8125rem;
+    }*/
+    .nombre-combo{
+        font-size: .5625rem;
+    }
+    .ingredientes-font-size{
+        font-size: .5rem ;
+    }
+    .precio-take-away{
+        font-size: .625rem;
+    }
+    /*
+        .ingredientes-font-size{
+        font-size: .5938rem ;
+        }
+    
+    }*/
+}
+@media (max-width:683px){
+    .take-away {
+        font-size: 3.75rem;
+    }
+    .nombre-combo{
+    font-size: .4688rem;
+    }
+    .ingredientes-font-size{
+    font-size: .4125rem ;
+    }
+}
+@media (max-width:573px){
+    .boton-agregar{
+        font-size: .5rem;
+    }
+    .nombre-combo{
+        font-size: .4063rem;
+    }
+    .ingredientes-font-size{
+        font-size: .375rem ;
+    }
+}
+@media (max-width:425px){
+    .take-away {
+        font-size: 2.5rem;
+    }
+    .grid-articulo-hamburguesa{
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(1,1fr);
+    }
+    .grid-ensalada{
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(1,1fr);
+        margin-left: 10%;
+    }
+    .grid-sandwiches{
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(1,1fr);
+    }
+    .grid-postres{
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(1,1fr);
+    }
+    .grid-para-niños{
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(1,1fr);
+    }
+    .footer{
+        font-size: .4375rem;
+    }
+    
+}
+
+@media (max-width:200px){
+    .take-away {
+        font-size: 1.875rem;
+    }
+    .titulo-productos {
+        font-size: .4375rem;
+    }
+    .footer{
         font-size: .3125rem;
     }
 }
