@@ -18,6 +18,7 @@
 .a{
     text-decoration: none;
     color: #f1ffff;
+    font-size: 1.125rem;
 }
 .boton-login, .boton-carrito{
     height: 2.5rem;
@@ -46,6 +47,7 @@
     margin-top: 4%;
     margin-left: 12.5% ;
     font-family: 'Oswald', sans-serif;
+    font-size: 1.0625rem;
     letter-spacing: 2px;
 }
 .h1{
@@ -62,7 +64,8 @@
 .parrafo-h1{
     font-family: 'Noto Sans', sans-serif;
     font-style:italic;
-    font-size: 0.10rem;
+    font-size: 1.10rem;
+    color: #000000;
 }
 .grid{
     display: grid;
@@ -604,7 +607,7 @@ footer{
         font-size: 4rem;
     } 
     .parrafo-h1{
-        font-size: 0.05rem;
+        font-size: 1.08rem;
     }
     .parrafo-beige{
         font-size: 0.80rem;
@@ -625,10 +628,566 @@ footer{
     }
     .img-comida-ensalada{
         width: 60%;
-        /*margin-top: -320px;*/
         margin-left: 40%;
     }
+    .img-comida-sandwiche{
+        width: 35%;
+        margin-left: 65%;
+    }
+    .img-comida-pancho{
+        width: 40%;
+        margin-left: 60%;
+    }
+    .img-comida-helado{
+        width: 40%;
+        margin-left: 60%;
+    }
+
+
 }
-/*@media (max-width:785px){
-    .
-}*/
+
+
+@media (max-width:1340px){
+    .h1{
+        font-size: 3.9rem;
+    } 
+    .parrafo-h1{
+        font-size: 1.06rem;
+    }
+    .really-fast, .dont-wait{
+        font-size: 1.375rem;
+    }
+    .parrafo-beige{
+        font-size: 0.70rem;
+    }
+    .nombre-secciones{
+        font-size: 2.10rem; 
+    }
+    .img-comida-burger{
+        width: 68%;
+        margin-left: 33%;
+    }
+    .img-comida-ensalada{
+        width: 58%;
+        margin-left: 42%;
+    }
+    .img-comida-sandwiche{
+        width: 33%;
+        margin-left: 67%;
+    }
+    .img-comida-sandwiche{
+        width: 33%;
+        margin-left: 67%;
+    }
+    .img-comida-pancho{
+        width: 38%;
+        margin-left: 62%;
+    }
+    .img-comida-helado{
+        width: 38%;
+        margin-left: 62%;
+    }
+    .parrafo-seis{
+        font-size: 0.70rem
+    }
+    .nombre-secciones-more{
+        font-size: 2.10rem; 
+    }
+}
+
+@media (max-width:1240px){
+    .h1{
+        font-size: 3.8rem;
+    } 
+    .parrafo-h1{
+        font-size: 1.04rem;
+    }
+    .really-fast, .dont-wait{
+        font-size: 1.275rem;
+    }
+    .parrafo-beige{
+        font-size: 0.60rem;
+    }
+    .nombre-secciones{
+        font-size: 2.00rem; 
+    }
+    .parrafo-seis{
+        font-size: 0.60rem;
+    }
+    .img-comida-burger{
+        width: 66%;
+        margin-left: 35%;
+    }
+    .img-comida-ensalada{
+        width: 56%;
+        margin-left: 44%;
+    }
+    .img-comida-sandwiche{
+        width: 31%;
+        margin-left: 69%;
+    }
+    .img-comida-sandwiche{
+        width: 31%;
+        margin-left: 69%;
+    }
+    .img-comida-pancho{
+        width: 36%;
+        margin-left: 64%;
+    }
+    .img-comida-helado{
+        width: 36%;
+        margin-left: 64%;
+    }
+    .nombre-secciones-more{
+        font-size: 2.00rem; 
+    }
+}
+
+
+
+
+@media(max-width:1140px){
+    .h1{
+        font-size: 3.7rem;
+    } 
+    .parrafo-h1{
+        font-size: 1.02rem; 
+    }
+    .really-fast, .dont-wait{
+        font-size: 1.175rem;
+    }
+    .parrafo-beige{
+        font-size: 0.55rem;
+    }
+    .nombre-secciones{
+        font-size: 1.99rem; 
+    }
+    .parrafo-seis{
+        font-size: 0.55rem;
+    }
+    .img-comida-burger{
+        width: 64%;
+        margin-left: 37%;
+    }
+    .img-comida-ensalada{
+        width: 54%;
+        margin-left: 46%;
+    }
+    .img-comida-sandwiche{
+        width: 29%;
+        margin-left: 71%;
+    }
+    .img-comida-sandwiche{
+        width: 29%;
+        margin-left: 71%;
+    }
+    .img-comida-pancho{
+        width: 34%;
+        margin-left: 66%;
+    }
+    .img-comida-helado{
+        width: 34%;
+        margin-left: 66%;
+    }
+    .nombre-secciones-more{
+        font-size: 1.99rem; 
+    }.a{
+        font-size: 1rem;
+    }
+    
+}
+@media(max-width:1040px){
+    .h1{
+        font-size: 3.6rem;
+    } 
+    .parrafo-h1{
+        font-size: 1rem; 
+    }
+    .really-fast, .dont-wait{
+        font-size: 1.075rem;
+    }
+    .parrafo-beige{
+        font-size: 0.45rem;
+    }
+    .nombre-secciones{
+        font-size: 1.89rem; 
+    }
+    .parrafo-seis{
+        font-size: 0.54rem;
+    }
+    .img-comida-pancho{
+        margin-bottom: 3%;
+    }
+    .nombre-secciones-more{
+        font-size: 1.89rem; 
+    }.a{
+        font-size: .75rem;
+    }
+}
+@media(max-width:940px){
+    .h1{
+        font-size: 3.5rem;
+    } 
+    .parrafo-h1{
+        font-size:.875rem; 
+    }
+    .really-fast, .dont-wait{
+        font-size: 1.065rem;
+    }
+    .parrafo-beige{
+        font-size: 0.42rem;
+    }
+    .nombre-secciones{
+        font-size: 1.89rem; 
+    }
+    .parrafo-seis{
+        font-size: 0.52rem;
+    }
+    .nombre-secciones-more{
+        font-size: 1.85rem; 
+    }
+    .img-comida-helado{
+        margin-bottom: 4.5%;
+    }
+}
+@media(max-width:841px){
+    .h1{
+        font-size: 3rem;
+    } 
+    .parrafo-h1{
+        font-size:.75rem; 
+    }
+    .really-fast, .dont-wait{
+        font-size: .9375rem
+    }
+    .parrafo-seis{
+        font-size: .4688rem;
+        margin-bottom: 15%;
+    }
+    .nombre-secciones-more{
+        font-size: 1.65rem; 
+    }
+    .img-comida-ensalada{
+        margin-bottom: 7%;
+    }
+    .img-comida-burger{
+        margin-bottom: 7%;
+    }
+    .img-comida-sandwiche{
+        margin-bottom: 7%;
+    }
+    .img-comida-helado{
+        margin-bottom: 7%;
+    }
+    .img-comida-pancho{
+        margin-bottom: 7%;
+    }
+    .boton-login, .boton-carrito{
+        height: 2.1875rem;
+        width: 5rem;
+    }
+}
+@media(max-width:775px){
+    .h1{
+        font-size: 2.625rem;
+    } 
+    .parrafo-h1{
+        font-size:  .625rem; 
+    }
+    .really-fast, .dont-wait{
+        font-size: .75rem
+    }   
+    .boton-estilo{
+        font-size: .625rem;
+    }
+    .nombre-secciones-more{
+        font-size: 1.5rem; 
+    }
+    .img-comida-ensalada{
+        margin-bottom: 15%;
+    }
+    .img-comida-burger{
+        margin-bottom: 15%;
+    }
+    .img-comida-sandwiche{
+        margin-bottom: 15%;
+    }
+    .img-comida-helado{
+        margin-bottom: 15%;
+    }
+    .img-comida-pancho{
+        margin-bottom: 15%;
+    }
+    .parrafo-seis{
+        font-size: .4375rem;
+    }
+    .contenedor-new{
+        font-size: .875rem;
+    }
+    
+
+}
+@media(max-width:675px) {
+    .a{
+        font-size: .625rem;
+    }
+    .h1{
+        font-size: 2.4375rem;
+    } 
+    .parrafo-h1{
+        font-size:  .5625rem; 
+    }
+    .img-comida-ensalada{
+        margin-bottom: 18%;
+    }
+    .img-comida-burger{
+        margin-bottom: 18%;
+    }
+    .img-comida-sandwiche{
+        margin-bottom: 18%;
+    }
+    .img-comida-helado{
+        margin-bottom: 18%;
+    }
+    .img-comida-pancho{
+        margin-bottom: 18%;
+    }
+    .nombre-secciones-more{
+        font-size: 1.375rem;
+        margin-top: 60%;
+    }
+    .boton-login, .boton-carrito{
+        font-size: .825rem;
+
+    }
+
+}
+@media(max-width:592px){
+    .h1{
+        font-size: 2.4375rem;
+    } 
+    .parrafo-h1{
+        font-size:  .5rem; 
+    }
+    .really-fast, .dont-wait{
+        font-size: .75rem
+    }   
+    .parrafo-beige {
+        font-size: .375rem;
+    }
+    .boton-estilo{
+        font-size: .5rem;
+    }
+    /*.texto{
+        margin-bottom: ;
+    }*/
+    .nombre-secciones {
+        font-size: 1.5rem;
+    }
+    .nombre-secciones-more{
+        font-size: 1.25rem; 
+    }
+    .img-comida-ensalada{
+        margin-bottom: 20%;
+    }
+    .img-comida-burger{
+        margin-bottom: 20%;
+    }
+    .img-comida-sandwiche{
+        margin-bottom: 20%;
+    }
+    .img-comida-helado{
+        margin-bottom: 30%;
+    }
+    .img-comida-pancho{
+        margin-bottom: 20%;
+    }
+    .parrafo-seis{
+        font-size: .4063rem;
+    }
+    .contenedor-new{
+        font-size: .875rem;
+    }
+    .boton-login, .boton-carrito {
+        height: 1.875rem;
+        width: 4.6875rem;
+    }
+    .contenedor-new {
+        font-size: .75rem;
+    }
+}
+@media(max-width:492px){
+    .h1{
+        font-size: 2.1875rem;
+    } 
+    .parrafo-h1{
+        font-size: .4375rem ; 
+    }
+    .really-fast, .dont-wait{
+        font-size: .625rem;
+    }   
+    .parrafo-beige {
+        font-size: .3563rem;
+    }
+    .boton-estilo{
+        font-size: .375rem;
+    }
+    /*.texto{
+        margin-bottom: ;
+    }*/
+    .nombre-secciones {
+        font-size: 1.375rem;
+    }
+    .img-comida-ensalada{
+        margin-bottom: 35%;
+    }
+    .img-comida-burger{
+        margin-bottom: 35%;
+    }
+    .img-comida-sandwiche{
+        margin-bottom: 35%;
+    }
+    .img-comida-helado{
+        margin-bottom: 30%;
+    }
+    .img-comida-pancho{
+        margin-bottom: 24%;
+    }
+    .parrafo-seis{
+        font-size: .375rem;
+    }
+    .contenedor-new{
+        font-size: .875rem;
+    }
+    .boton-login, .boton-carrito {
+        height: 1.5625rem;
+        width: 4.375rem;
+    }
+    .contenedor-new {
+        font-size: .75rem;
+    }
+}
+@media(max-width:425px) {
+    .lista {
+        flex-direction: column;
+        align-items: center;
+    }
+    .img-princi {
+        top: 40%;
+    }
+    .img-princi-dos {
+        top: 42%;
+    }
+    .h1{
+        font-size: 1.5625rem;
+    } 
+    .parrafo-h1{
+        font-size: .4375rem ; 
+    }
+    .really-fast, .dont-wait{
+        font-size: .4375rem;
+    }   
+    .parrafo-beige {
+        font-size: .2813rem;
+    }
+    .contenedor-seis{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .img-comida-burger,.img-comida-ensalada,.img-comida-sandwiche,.img-comida-helado{
+        margin-bottom: 0%;
+    }
+    .img-comida-pancho{
+        margin-bottom: 6%;
+    }
+    .boton-estilo {
+        font-size: .25rem;
+    }
+    .boton-verde {
+
+        padding: 3% 25%;
+
+    }
+}
+@media(max-width:325px) {
+    .h1{
+        font-size: 1.125rem;
+    } 
+    .parrafo-h1{
+        font-size: .3125rem ; 
+    }
+    .contenedor-new {
+        font-size: .5rem;
+    }
+    .img-princi {
+        top: 35%;
+    }
+    .img-princi-dos {
+        top: 37%;
+    }
+}
+@media(max-width:275px) {
+    .h1{
+        font-size: .625rem;
+    } 
+    .parrafo-h1{
+        font-size: .2188rem ; 
+    }
+    .contenedor-new {
+        font-size: .3125rem;
+    }
+    .nombre-secciones {
+        font-size: 1rem;
+    }
+    .boton-estilo {
+        font-size: .1563rem;
+    }
+    .really-fast, .dont-wait {
+        font-size: .3438rem;
+    }
+    .parrafo-beige {
+        font-size: .1875rem;
+    }
+    .img-princi {
+        top: 30%;
+    }
+    .img-princi-dos {
+        top: 32%;
+    }
+    .texto-white {
+        font-size: .3125rem;
+    }
+}
+@media(max-width:200px){
+    .h1{
+        font-size: .625rem;
+    } 
+    .parrafo-h1{
+        font-size: .2188rem ; 
+    }
+    .contenedor-new {
+        font-size: .3125rem;
+    }
+    .nombre-secciones {
+        font-size: .625rem;
+    }
+    .boton-estilo {
+        font-size: .1563rem;
+    }
+    .really-fast, .dont-wait {
+        font-size: .3438rem;
+    }
+    .parrafo-beige {
+        font-size: .1875rem;
+    }
+    .img-princi {
+        top: 30%;
+    }
+    .img-princi-dos {
+        top: 32%;
+    }
+    .texto-white {
+        font-size: .3125rem;
+    }
+}
